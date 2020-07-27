@@ -76,6 +76,7 @@ function montheme_ajouter_sousmenu_tableau_de_bord(){
 function montheme_sousmenu_creer_page_configuration() {
 
     echo "<div class='wrap'><h3>Sous menu1</h3></div>";
+    echo  "<p>Mon paragraphe</p>";
 
 }
 
