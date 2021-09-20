@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - WooCommerce - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-08-17 20:32:16+0000\n"
+"PO-Revision-Date: 2021-09-17 17:56:26+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -5386,6 +5386,13 @@ msgstr "Limiter le jeu de résultats aux articles possédant les ID de commande 
 msgid "Order Number."
 msgstr "Numéro de commande."
 
+#: packages/woocommerce-admin/src/API/Reports/Downloads/Controller.php:318
+#: packages/woocommerce-admin/src/API/Reports/Downloads/Stats/Controller.php:309
+#: packages/woocommerce-admin/src/API/Reports/Orders/Controller.php:325
+#: packages/woocommerce-admin/src/API/Reports/Orders/Stats/Controller.php:436
+msgid "Limit result set to items that don't have the specified product(s) assigned."
+msgstr "Limiter le jeu de résultats aux articles auxquels le ou les produits spécifiés ne sont pas assignés."
+
 #: packages/woocommerce-admin/src/API/Reports/Categories/DataStore.php:271
 #: packages/woocommerce-admin/src/API/Reports/Orders/Stats/DataStore.php:335
 #: packages/woocommerce-admin/src/API/Reports/Orders/Stats/DataStore.php:388
@@ -5396,13 +5403,6 @@ msgstr "Numéro de commande."
 #: packages/woocommerce-admin/src/API/Reports/Variations/Stats/DataStore.php:229
 msgid "Sorry, fetching revenue data failed."
 msgstr "Désolé, la récupération des données de revenu a échoué."
-
-#: packages/woocommerce-admin/src/API/Reports/Downloads/Controller.php:318
-#: packages/woocommerce-admin/src/API/Reports/Downloads/Stats/Controller.php:309
-#: packages/woocommerce-admin/src/API/Reports/Orders/Controller.php:325
-#: packages/woocommerce-admin/src/API/Reports/Orders/Stats/Controller.php:436
-msgid "Limit result set to items that don't have the specified product(s) assigned."
-msgstr "Limiter le jeu de résultats aux articles auxquels le ou les produits spécifiés ne sont pas assignés."
 
 #: packages/woocommerce-admin/src/API/Reports/Downloads/Controller.php:308
 #: packages/woocommerce-admin/src/API/Reports/Downloads/Stats/Controller.php:299
@@ -5770,6 +5770,17 @@ msgstr "Limiter le jeu de résultats aux articles ne possédant pas le statut de
 msgid "Limit result set to items that have the specified order status."
 msgstr "Limiter le jeu de résultats aux articles possédant le statut de commande spécifié."
 
+#: packages/woocommerce-admin/src/API/Reports/Categories/Controller.php:269
+#: packages/woocommerce-admin/src/API/Reports/Coupons/Stats/Controller.php:320
+#: packages/woocommerce-admin/src/API/Reports/Downloads/Stats/Controller.php:275
+#: packages/woocommerce-admin/src/API/Reports/Orders/Stats/Controller.php:381
+#: packages/woocommerce-admin/src/API/Reports/Products/Stats/Controller.php:367
+#: packages/woocommerce-admin/src/API/Reports/Revenue/Stats/Controller.php:412
+#: packages/woocommerce-admin/src/API/Reports/Taxes/Stats/Controller.php:358
+#: packages/woocommerce-admin/src/API/Reports/Variations/Stats/Controller.php:374
+msgid "Time interval to use for buckets in the returned data."
+msgstr "Intervalle de temps à appliquer aux compartiments dans les données retournées."
+
 #: packages/woocommerce-admin/src/API/Reports/Coupons/Stats/Controller.php:242
 #: packages/woocommerce-admin/src/API/Reports/Downloads/Stats/Controller.php:199
 #: packages/woocommerce-admin/src/API/Reports/Orders/Stats/Controller.php:303
@@ -5789,17 +5800,6 @@ msgstr "Date de fin du rapport, format GMT."
 #: packages/woocommerce-admin/src/API/Reports/Variations/Stats/Controller.php:254
 msgid "The date the report end, in the site's timezone."
 msgstr "Date de fin du rapport, fuseau horaire du site."
-
-#: packages/woocommerce-admin/src/API/Reports/Categories/Controller.php:269
-#: packages/woocommerce-admin/src/API/Reports/Coupons/Stats/Controller.php:320
-#: packages/woocommerce-admin/src/API/Reports/Downloads/Stats/Controller.php:275
-#: packages/woocommerce-admin/src/API/Reports/Orders/Stats/Controller.php:381
-#: packages/woocommerce-admin/src/API/Reports/Products/Stats/Controller.php:367
-#: packages/woocommerce-admin/src/API/Reports/Revenue/Stats/Controller.php:412
-#: packages/woocommerce-admin/src/API/Reports/Taxes/Stats/Controller.php:358
-#: packages/woocommerce-admin/src/API/Reports/Variations/Stats/Controller.php:374
-msgid "Time interval to use for buckets in the returned data."
-msgstr "Intervalle de temps à appliquer aux compartiments dans les données retournées."
 
 #: packages/woocommerce-admin/src/API/Reports/Coupons/Stats/Controller.php:230
 #: packages/woocommerce-admin/src/API/Reports/Downloads/Stats/Controller.php:187
@@ -5831,6 +5831,15 @@ msgstr "Date de début du rapport, fuseau horaire du site."
 msgid "Reports data grouped by intervals."
 msgstr "Données des rapports regroupées par intervalles."
 
+#: packages/woocommerce-admin/src/API/Reports/Coupons/Stats/Controller.php:177
+#: packages/woocommerce-admin/src/API/Reports/Orders/Stats/Controller.php:233
+#: packages/woocommerce-admin/src/API/Reports/Products/Stats/Controller.php:191
+#: packages/woocommerce-admin/src/API/Reports/Revenue/Stats/Controller.php:258
+#: packages/woocommerce-admin/src/API/Reports/Taxes/Stats/Controller.php:214
+#: packages/woocommerce-admin/src/API/Reports/Variations/Stats/Controller.php:188
+msgid "Segment identificator."
+msgstr "Identificateur de segment."
+
 #: packages/woocommerce-admin/src/API/Reports/Coupons/Stats/Controller.php:183
 #: packages/woocommerce-admin/src/API/Reports/Coupons/Stats/Controller.php:248
 #: packages/woocommerce-admin/src/API/Reports/Downloads/Stats/Controller.php:205
@@ -5846,15 +5855,6 @@ msgstr "Données des rapports regroupées par intervalles."
 #: packages/woocommerce-admin/src/API/Reports/Variations/Stats/Controller.php:266
 msgid "Interval subtotals."
 msgstr "Sous-totaux des intervalles."
-
-#: packages/woocommerce-admin/src/API/Reports/Coupons/Stats/Controller.php:177
-#: packages/woocommerce-admin/src/API/Reports/Orders/Stats/Controller.php:233
-#: packages/woocommerce-admin/src/API/Reports/Products/Stats/Controller.php:191
-#: packages/woocommerce-admin/src/API/Reports/Revenue/Stats/Controller.php:258
-#: packages/woocommerce-admin/src/API/Reports/Taxes/Stats/Controller.php:214
-#: packages/woocommerce-admin/src/API/Reports/Variations/Stats/Controller.php:188
-msgid "Segment identificator."
-msgstr "Identificateur de segment."
 
 #: packages/woocommerce-admin/src/API/Reports/Coupons/Stats/Controller.php:169
 #: packages/woocommerce-admin/src/API/Reports/Orders/Stats/Controller.php:225
@@ -5882,10 +5882,6 @@ msgstr "Montant de la réduction par code promo."
 msgid "Net Sales."
 msgstr "Ventes nettes."
 
-#: packages/woocommerce-admin/src/API/Coupons.php:34
-msgid "Limit results to coupons with codes matching a given string."
-msgstr "Limiter les résultats aux codes promo dont les codes correspondent à une chaîne donnée."
-
 #: packages/woocommerce-admin/src/API/Reports/Coupons/Stats/Controller.php:202
 #: packages/woocommerce-admin/src/API/Reports/Customers/Stats/Controller.php:164
 #: packages/woocommerce-admin/src/API/Reports/Downloads/Stats/Controller.php:159
@@ -5897,6 +5893,10 @@ msgstr "Limiter les résultats aux codes promo dont les codes correspondent à u
 #: packages/woocommerce-admin/src/API/Reports/Variations/Stats/Controller.php:220
 msgid "Totals data."
 msgstr "Ensemble des données."
+
+#: packages/woocommerce-admin/src/API/Coupons.php:34
+msgid "Limit results to coupons with codes matching a given string."
+msgstr "Limiter les résultats aux codes promo dont les codes correspondent à une chaîne donnée."
 
 #: packages/woocommerce-admin/src/API/Leaderboards.php:538
 msgid "Table cell value."
@@ -5959,6 +5959,20 @@ msgstr "Meilleurs clients - Dépense totale"
 msgid "Net Sales"
 msgstr "Ventes nettes"
 
+#: packages/woocommerce-admin/src/API/Leaderboards.php:197
+#: packages/woocommerce-admin/src/API/Leaderboards.php:333
+#: packages/woocommerce-admin/src/API/Reports/Categories/Controller.php:330
+#: packages/woocommerce-admin/src/API/Reports/Orders/Controller.php:540
+#: packages/woocommerce-admin/src/API/Reports/Products/Controller.php:390
+#: packages/woocommerce-admin/src/API/Reports/Variations/Controller.php:414
+#: packages/woocommerce-admin/dist/chunks/analytics-report-categories.js:1
+#: packages/woocommerce-admin/dist/chunks/analytics-report-orders.js:1
+#: packages/woocommerce-admin/dist/chunks/analytics-report-products.js:1
+#: packages/woocommerce-admin/dist/chunks/analytics-report-variations.js:1
+#: packages/woocommerce-admin/dist/chunks/dashboard-charts.js:1
+msgid "Items Sold"
+msgstr "Articles vendus"
+
 #: packages/woocommerce-admin/src/API/Leaderboards.php:191
 msgid "Top Categories - Items Sold"
 msgstr "Meilleures catégories - Articles vendus"
@@ -5985,20 +5999,6 @@ msgstr "Désolé, aucune ressource ne possède cet ID."
 #: packages/woocommerce-admin/src/API/NoteActions.php:32
 msgid "Unique ID for the Note."
 msgstr "ID unique de la note."
-
-#: packages/woocommerce-admin/src/API/Leaderboards.php:197
-#: packages/woocommerce-admin/src/API/Leaderboards.php:333
-#: packages/woocommerce-admin/src/API/Reports/Categories/Controller.php:330
-#: packages/woocommerce-admin/src/API/Reports/Orders/Controller.php:540
-#: packages/woocommerce-admin/src/API/Reports/Products/Controller.php:390
-#: packages/woocommerce-admin/src/API/Reports/Variations/Controller.php:414
-#: packages/woocommerce-admin/dist/chunks/analytics-report-categories.js:1
-#: packages/woocommerce-admin/dist/chunks/analytics-report-orders.js:1
-#: packages/woocommerce-admin/dist/chunks/analytics-report-products.js:1
-#: packages/woocommerce-admin/dist/chunks/analytics-report-variations.js:1
-#: packages/woocommerce-admin/dist/chunks/dashboard-charts.js:1
-msgid "Items Sold"
-msgstr "Articles vendus"
 
 #: packages/woocommerce-admin/src/API/Leaderboards.php:122
 msgid "Top Coupons - Number of Orders"
@@ -8519,10 +8519,6 @@ msgstr "Bol&iacute;var soberano"
 msgid "Sol"
 msgstr "Sol"
 
-#: packages/woocommerce-blocks/src/StoreApi/Routes/Products.php:369
-msgid "Determines if hidden or visible catalog products are shown."
-msgstr "Détermine si les produits cachés ou visibles dans le catalogue sont affichés."
-
 #: packages/woocommerce-blocks/src/StoreApi/Routes/Products.php:350
 msgid "Operator to compare product attribute terms."
 msgstr "Opérateur pour comparer les termes d’attributs de produits."
@@ -8574,6 +8570,10 @@ msgstr "Ne pas écraser action_args lors de l’appel wc_get_template."
 #: includes/admin/settings/class-wc-settings-advanced.php:330
 msgid "WooCommerce.com Usage Tracking Documentation"
 msgstr "Document de suivi de l’utilisation de WooCommerce.com"
+
+#: packages/woocommerce-blocks/src/StoreApi/Routes/Products.php:369
+msgid "Determines if hidden or visible catalog products are shown."
+msgstr "Détermine si les produits masqués ou visibles dans le catalogue sont affichés."
 
 #: templates/myaccount/form-login.php:99
 msgid "A password will be sent to your email address."
@@ -8827,6 +8827,17 @@ msgstr "Merci d’avoir créé un compte sur %1$s. Votre identifiant est %2$s. V
 msgid "Here are the details of your order placed on %s:"
 msgstr "Voici les détails de votre commande passée le %s :"
 
+#: includes/emails/class-wc-email-customer-completed-order.php:140
+msgid "Thanks for shopping with us."
+msgstr "Merci pour votre achat."
+
+#. translators: %s: Customer billing full name
+#. translators: %s: Customer billing full name
+#: templates/emails/admin-new-order.php:26
+#: templates/emails/plain/admin-new-order.php:25
+msgid "You’ve received the following order from %s:"
+msgstr "Vous avez reçu la commande suivante de %s :"
+
 #. translators: %s = merchant name
 #. translators: %s: Customer username
 #. translators: %s: Customer first name
@@ -8865,17 +8876,6 @@ msgstr "Voici les détails de votre commande passée le %s :"
 #: templates/emails/plain/customer-reset-password.php:25
 msgid "Hi %s,"
 msgstr "Bonjour %s,"
-
-#: includes/emails/class-wc-email-customer-completed-order.php:140
-msgid "Thanks for shopping with us."
-msgstr "Merci pour votre achat."
-
-#. translators: %s: Customer billing full name
-#. translators: %s: Customer billing full name
-#: templates/emails/admin-new-order.php:26
-#: templates/emails/plain/admin-new-order.php:25
-msgid "You’ve received the following order from %s:"
-msgstr "Vous avez reçu la commande suivante de %s :"
 
 #: includes/emails/class-wc-email-failed-order.php:142
 msgid "Hopefully they’ll be back. Read more about <a href=\"https://docs.woocommerce.com/document/managing-orders/\">troubleshooting failed payments</a>."
@@ -8963,19 +8963,6 @@ msgstr "Impossible de déverrouiller la demande %s. Erreur de la base de donnée
 msgid "Unable to claim actions. Database error."
 msgstr "Impossible de demander des actions. Erreur de la base de données."
 
-#. translators: %s: action ID
-#: packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:473
-#: packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:564
-#: packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:596
-#: packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:806
-#: packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:848
-#: packages/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:467
-#: packages/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:478
-#: packages/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:505
-#: packages/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:798
-msgid "Unidentified action %s"
-msgstr "Action %s non identifiée"
-
 #: packages/action-scheduler/classes/abstracts/ActionScheduler_Logger.php:94
 msgid "action complete"
 msgstr "action terminée"
@@ -9013,6 +9000,19 @@ msgid "Found %d scheduled task"
 msgid_plural "Found %d scheduled tasks"
 msgstr[0] "%d tâche planifiée détectée"
 msgstr[1] "%d tâches planifiées détectées"
+
+#. translators: %s: action ID
+#: packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:473
+#: packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:564
+#: packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:596
+#: packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:806
+#: packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:848
+#: packages/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:467
+#: packages/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:478
+#: packages/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:505
+#: packages/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:798
+msgid "Unidentified action %s"
+msgstr "Action %s non identifiée"
 
 #: packages/action-scheduler/classes/ActionScheduler_DataController.php:137
 msgid "Attempting to reduce used memory..."
@@ -9356,17 +9356,17 @@ msgstr "Impossible de restaurer le stock de l’élément %s."
 msgid "Unable to reduce stock for item %s."
 msgstr "Impossible de réduire le stock de l’élément %s."
 
+#. translators: 1: action HTML 2: action ID 3: error message
+#: packages/action-scheduler/classes/ActionScheduler_ListTable.php:412
+msgid "Could not process change for action: \"%1$s\" (ID: %2$d). Error: %3$s"
+msgstr "Impossible de traiter les modifications de l’action suivante : « %1$s » (ID : %2$d). Erreur :  %3$s"
+
 #. translators: %s: amount of claims
 #: packages/action-scheduler/classes/ActionScheduler_ListTable.php:357
 msgid "Maximum simultaneous queues already in progress (%s queue). No additional queues will begin processing until the current queues are complete."
 msgid_plural "Maximum simultaneous queues already in progress (%s queues). No additional queues will begin processing until the current queues are complete."
 msgstr[0] "Nombre maximal de files d’attente simultanées déjà en cours de traitement (%s file d’attente). Aucune file d’attente supplémentaire ne sera traitée tant que les files d’attente en cours ne seront pas terminées."
 msgstr[1] "Nombre maximal de files d’attente simultanées déjà en cours de traitement (%s files d’attente). Aucune file d’attente supplémentaire ne sera traitée tant que les files d’attente en cours ne seront pas terminées."
-
-#. translators: 1: action HTML 2: action ID 3: error message
-#: packages/action-scheduler/classes/ActionScheduler_ListTable.php:412
-msgid "Could not process change for action: \"%1$s\" (ID: %2$d). Error: %3$s"
-msgstr "Impossible de traiter les modifications de l’action suivante : « %1$s » (ID : %2$d). Erreur :  %3$s"
 
 #: includes/rest-api/Controllers/Version3/class-wc-rest-reports-controller.php:67
 msgid "Attributes totals."
@@ -12431,11 +12431,6 @@ msgstr "Adresse de la boutique"
 msgid "WooCommerce transients"
 msgstr "WooCommerce transients"
 
-#. translators: 1: X-Accel-Redirect 2: X-Sendfile 3: mod_xsendfile
-#: includes/admin/settings/class-wc-settings-products.php:366
-msgid "Forcing downloads will keep URLs hidden, but some servers may serve large files unreliably. If supported, %1$s / %2$s can be used to serve downloads instead (server requires %3$s)."
-msgstr "Forcer les téléchargements va garder les URLs cachées, mais certains serveurs peuvent servir des gros fichiers de manière incertaine. Si supporté, %1$s / %2$s peut être utilisé pour servir des téléchargements à la place (le serveur requiert %3$s)."
-
 #. translators: %s: version number
 #: includes/admin/plugin-updates/views/html-notice-untested-extensions-modal.php:14
 msgid "The following active plugin(s) have not declared compatibility with WooCommerce %s yet and should be updated and examined further before you proceed:"
@@ -12497,6 +12492,11 @@ msgstr "Cette option supprimera TOUS vos taux de taxe, à utiliser avec prudence
 #: includes/admin/settings/class-wc-settings-general.php:80
 msgid "Country / State"
 msgstr "Pays/État"
+
+#. translators: 1: X-Accel-Redirect 2: X-Sendfile 3: mod_xsendfile
+#: includes/admin/settings/class-wc-settings-products.php:366
+msgid "Forcing downloads will keep URLs hidden, but some servers may serve large files unreliably. If supported, %1$s / %2$s can be used to serve downloads instead (server requires %3$s)."
+msgstr "Forcer les téléchargements va garder les URLs masquées, mais certains serveurs peuvent servir des gros fichiers de manière incertaine. Si supporté, %1$s / %2$s peut être utilisé pour servir des téléchargements à la place (le serveur nécessite %3$s)."
 
 #: includes/admin/importers/class-wc-product-csv-importer-controller.php:387
 msgid "The file is empty or using a different encoding than UTF-8, please try again with a new file."
@@ -13053,10 +13053,6 @@ msgstr "Numéro de voie et nom de la rue"
 msgid "Invalid customer query."
 msgstr "Requête client invalide."
 
-#: includes/class-wc-ajax.php:2137
-msgid "API Key generated successfully. Make sure to copy your new keys now as the secret key will be hidden once you leave this page."
-msgstr "Clé API générée avec succès. Assurez-vous de copier vos nouvelles clés maintenant, la clé sera cachée une fois que vous quitterez cette page."
-
 #: includes/emails/class-wc-email-customer-invoice.php:207
 msgid "Subject (paid)"
 msgstr "Sujet (payé)"
@@ -13131,6 +13127,10 @@ msgstr "Un produit avec cet ID existe déjà."
 #: packages/woocommerce-admin/includes/connect-existing-pages.php:204
 msgid "Add New"
 msgstr "Ajouter"
+
+#: includes/class-wc-ajax.php:2137
+msgid "API Key generated successfully. Make sure to copy your new keys now as the secret key will be hidden once you leave this page."
+msgstr "Clé de l’API bien générée. Assurez-vous de copier vos nouvelles clés maintenant, la clé sera masquée une fois que vous quitterez cette page."
 
 #: includes/admin/views/html-admin-page-product-export.php:34
 msgid "Export all columns"
@@ -15659,10 +15659,6 @@ msgstr "Modifier la page %s"
 msgid "Error messages should not be shown to visitors."
 msgstr "Les messages d’erreur ne doivent pas s’afficher aux visiteurs."
 
-#: includes/admin/views/html-admin-page-status-report.php:646
-msgid "Error messages can contain sensitive information about your store environment. These should be hidden from untrusted visitors."
-msgstr "Les messages d’erreur peuvent contenir des informations sensibles sur votre environnement de boutique. Il doivent être cachés de visiteurs non fiables."
-
 #. Translators: %s: docs link.
 #: includes/admin/views/html-admin-page-status-report.php:638
 msgid "Your store is not using HTTPS. <a href=\"%s\" target=\"_blank\">Learn more about HTTPS and SSL Certificates</a>."
@@ -15688,6 +15684,10 @@ msgstr "Masquer les erreurs aux visiteurs"
 #: includes/admin/views/html-admin-page-status-report.php:629
 msgid "Secure connection (HTTPS)"
 msgstr "Connexion sécurisée (HTTPS)"
+
+#: includes/admin/views/html-admin-page-status-report.php:646
+msgid "Error messages can contain sensitive information about your store environment. These should be hidden from untrusted visitors."
+msgstr "Les messages d’erreur peuvent contenir des informations sensibles sur votre environnement de boutique. Ils doivent être masqués des visiteurs non fiables."
 
 #. Translators: %1$s: Database prefix, %2$s: Docs link.
 #: includes/admin/views/html-admin-page-status-report.php:527
@@ -16243,6 +16243,10 @@ msgstr "UGS non valide ou dupliqué."
 msgid "Invalid catalog visibility option."
 msgstr "Option de visibilité catalogue non valide."
 
+#: includes/abstracts/abstract-wc-order.php:582
+msgid "Invalid currency code"
+msgstr "Code devise non valide"
+
 #: includes/rest-api/Controllers/Version1/class-wc-rest-products-v1-controller.php:1637
 #: includes/rest-api/Controllers/Version2/class-wc-rest-products-v2-controller.php:909
 #: includes/rest-api/Controllers/Version2/class-wc-rest-products-v2-controller.php:1540
@@ -16251,10 +16255,6 @@ msgstr "Option de visibilité catalogue non valide."
 #: includes/rest-api/Controllers/Version3/class-wc-rest-products-controller.php:320
 msgid "To manipulate product variations you should use the /products/&lt;product_id&gt;/variations/&lt;id&gt; endpoint."
 msgstr "Pour manipuler les variations de produit, vous devez utiliser le point de terminaison /produits/&lt;product_id&gt;/variations/&lt;id&gt;."
-
-#: includes/abstracts/abstract-wc-order.php:582
-msgid "Invalid currency code"
-msgstr "Code devise non valide"
 
 #: i18n/states.php:1133
 msgid "Zamfara"
@@ -18721,19 +18721,6 @@ msgstr "Détermine si la commande est payée. Cela va définir l’état à en c
 msgid "Image data."
 msgstr "Données d’image."
 
-#: includes/rest-api/Controllers/Version1/class-wc-rest-products-v1-controller.php:2482
-#: includes/rest-api/Controllers/Version2/class-wc-rest-product-variations-v2-controller.php:879
-#: includes/rest-api/Controllers/Version3/class-wc-rest-product-variations-controller.php:658
-msgid "Variation image data."
-msgstr "Données d’image de variation."
-
-#: includes/rest-api/Controllers/Version1/class-wc-rest-products-v1-controller.php:2188
-#: includes/rest-api/Controllers/Version1/class-wc-rest-products-v1-controller.php:2520
-#: includes/rest-api/Controllers/Version2/class-wc-rest-product-variations-v2-controller.php:929
-#: includes/rest-api/Controllers/Version2/class-wc-rest-products-v2-controller.php:2144
-msgid "Image position. 0 means that the image is featured."
-msgstr "Position de l’image. 0 signifie que l’image est à la une."
-
 #: includes/rest-api/Controllers/Version1/class-wc-rest-product-categories-v1-controller.php:221
 #: includes/rest-api/Controllers/Version1/class-wc-rest-products-v1-controller.php:2155
 #: includes/rest-api/Controllers/Version1/class-wc-rest-products-v1-controller.php:2487
@@ -18746,6 +18733,19 @@ msgstr "Position de l’image. 0 signifie que l’image est à la une."
 #: packages/woocommerce-blocks/src/StoreApi/Schemas/ImageAttachmentSchema.php:32
 msgid "Image ID."
 msgstr "ID de l’image."
+
+#: includes/rest-api/Controllers/Version1/class-wc-rest-products-v1-controller.php:2482
+#: includes/rest-api/Controllers/Version2/class-wc-rest-product-variations-v2-controller.php:879
+#: includes/rest-api/Controllers/Version3/class-wc-rest-product-variations-controller.php:658
+msgid "Variation image data."
+msgstr "Données d’image de variation."
+
+#: includes/rest-api/Controllers/Version1/class-wc-rest-products-v1-controller.php:2188
+#: includes/rest-api/Controllers/Version1/class-wc-rest-products-v1-controller.php:2520
+#: includes/rest-api/Controllers/Version2/class-wc-rest-product-variations-v2-controller.php:929
+#: includes/rest-api/Controllers/Version2/class-wc-rest-products-v2-controller.php:2144
+msgid "Image position. 0 means that the image is featured."
+msgstr "Position de l’image. 0 signifie que l’image est à la une."
 
 #: includes/rest-api/Controllers/Version1/class-wc-rest-products-v1-controller.php:2148
 #: includes/rest-api/Controllers/Version2/class-wc-rest-products-v2-controller.php:2092
@@ -18871,6 +18871,19 @@ msgstr "Moyenne des note des avis."
 msgid "Refund ID."
 msgstr "ID du remboursement."
 
+#: includes/cli/class-wc-cli-runner.php:114
+#: includes/rest-api/Controllers/Version1/class-wc-rest-products-v1-controller.php:2203
+#: includes/rest-api/Controllers/Version1/class-wc-rest-products-v1-controller.php:2245
+#: includes/rest-api/Controllers/Version1/class-wc-rest-products-v1-controller.php:2534
+#: includes/rest-api/Controllers/Version2/class-wc-rest-product-variations-v2-controller.php:943
+#: includes/rest-api/Controllers/Version2/class-wc-rest-products-v2-controller.php:2159
+#: includes/rest-api/Controllers/Version2/class-wc-rest-products-v2-controller.php:2204
+#: includes/rest-api/Controllers/Version3/class-wc-rest-product-variations-controller.php:717
+#: includes/rest-api/Controllers/Version3/class-wc-rest-products-controller.php:1234
+#: includes/rest-api/Controllers/Version3/class-wc-rest-products-controller.php:1279
+msgid "Attribute ID."
+msgstr "ID de l’attribut."
+
 #: includes/rest-api/Controllers/Version1/class-wc-rest-orders-v1-controller.php:1145
 #: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1207
 msgid "Payment method ID."
@@ -18898,19 +18911,6 @@ msgstr "ID de l’étiquette."
 #: includes/rest-api/Controllers/Version1/class-wc-rest-products-v1-controller.php:2270
 msgid "Variation ID."
 msgstr "ID de la variation."
-
-#: includes/cli/class-wc-cli-runner.php:114
-#: includes/rest-api/Controllers/Version1/class-wc-rest-products-v1-controller.php:2203
-#: includes/rest-api/Controllers/Version1/class-wc-rest-products-v1-controller.php:2245
-#: includes/rest-api/Controllers/Version1/class-wc-rest-products-v1-controller.php:2534
-#: includes/rest-api/Controllers/Version2/class-wc-rest-product-variations-v2-controller.php:943
-#: includes/rest-api/Controllers/Version2/class-wc-rest-products-v2-controller.php:2159
-#: includes/rest-api/Controllers/Version2/class-wc-rest-products-v2-controller.php:2204
-#: includes/rest-api/Controllers/Version3/class-wc-rest-product-variations-controller.php:717
-#: includes/rest-api/Controllers/Version3/class-wc-rest-products-controller.php:1234
-#: includes/rest-api/Controllers/Version3/class-wc-rest-products-controller.php:1279
-msgid "Attribute ID."
-msgstr "ID de l’attribut."
 
 #: includes/rest-api/Controllers/Version1/class-wc-rest-products-v1-controller.php:2059
 #: includes/rest-api/Controllers/Version2/class-wc-rest-products-v2-controller.php:2003
@@ -19133,11 +19133,6 @@ msgstr "Total facturé pour les taxes."
 msgid "Shipping tax total."
 msgstr "Total des taxes livraison."
 
-#: includes/rest-api/Controllers/Version1/class-wc-rest-orders-v1-controller.php:1381
-#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1461
-msgid "Tax total (not including shipping taxes)."
-msgstr "Taxe totale (n’incluant pas la taxe de livraison)."
-
 #: includes/rest-api/Controllers/Version1/class-wc-rest-order-refunds-v1-controller.php:460
 #: includes/rest-api/Controllers/Version1/class-wc-rest-orders-v1-controller.php:1296
 #: includes/rest-api/Controllers/Version1/class-wc-rest-orders-v1-controller.php:1444
@@ -19148,6 +19143,11 @@ msgstr "Taxe totale (n’incluant pas la taxe de livraison)."
 #: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1647
 msgid "Tax total."
 msgstr "Total de la taxe."
+
+#: includes/rest-api/Controllers/Version1/class-wc-rest-orders-v1-controller.php:1381
+#: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1461
+msgid "Tax total (not including shipping taxes)."
+msgstr "Taxe totale (n’incluant pas la taxe de livraison)."
 
 #: includes/rest-api/Controllers/Version1/class-wc-rest-orders-v1-controller.php:1343
 #: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1423
@@ -20682,17 +20682,6 @@ msgstr "Une simple passerelle hors ligne qui vous permet d&rsquo;accepter un ch�
 msgid "A simple offline gateway that lets you accept BACS payment."
 msgstr "Une passerelle hors ligne simple qui vous permet d&rsquo;accepter le paiement par prélèvement."
 
-#: includes/admin/class-wc-admin-setup-wizard.php:1593
-#: includes/gateways/cheque/class-wc-gateway-cheque.php:31
-#: includes/gateways/cheque/class-wc-gateway-cheque.php:67
-msgctxt "Check payment method"
-msgid "Check payments"
-msgstr "Paiements par chèque"
-
-#: includes/admin/class-wc-admin-help.php:57
-msgid "Community forum"
-msgstr "Forum communautaire"
-
 #: includes/rest-api/Controllers/Version1/class-wc-rest-customers-v1-controller.php:215
 #: includes/rest-api/Controllers/Version1/class-wc-rest-product-attributes-v1-controller.php:230
 #: includes/rest-api/Controllers/Version1/class-wc-rest-taxes-v1-controller.php:198
@@ -20703,6 +20692,17 @@ msgstr "Forum communautaire"
 #: includes/rest-api/Controllers/Version3/class-wc-rest-terms-controller.php:237
 msgid "Sorry, you are not allowed to batch manipulate this resource."
 msgstr "Désolé, vous n&rsquo;êtes pas autorisé à manipuler cette ressource."
+
+#: includes/admin/class-wc-admin-setup-wizard.php:1593
+#: includes/gateways/cheque/class-wc-gateway-cheque.php:31
+#: includes/gateways/cheque/class-wc-gateway-cheque.php:67
+msgctxt "Check payment method"
+msgid "Check payments"
+msgstr "Paiements par chèque"
+
+#: includes/admin/class-wc-admin-help.php:57
+msgid "Community forum"
+msgstr "Forum communautaire"
 
 #: includes/admin/class-wc-admin-setup-wizard.php:1599
 msgid "Bank transfer (BACS) payments"
@@ -21849,10 +21849,6 @@ msgstr "DECROISSANT"
 msgid "Hide free products"
 msgstr "Masquer les produits gratuits"
 
-#: includes/widgets/class-wc-widget-products.php:76
-msgid "Show hidden products"
-msgstr "Afficher les produits cachés"
-
 #. Translators: %s App name.
 #. translators: %s: app name
 #: templates/auth/form-grant-access.php:26 templates/auth/form-login.php:25
@@ -22558,6 +22554,10 @@ msgid "Showing all %d result"
 msgid_plural "Showing all %d results"
 msgstr[0] "%d résultat affiché"
 msgstr[1] "%d résultats affichés"
+
+#: includes/widgets/class-wc-widget-products.php:76
+msgid "Show hidden products"
+msgstr "Afficher les produits masqués"
 
 #. translators: %s: number of orders
 #. translators: %s: count
@@ -25288,24 +25288,6 @@ msgstr "Vous n’avez pas le droit de voir le nombre de crochets Web"
 msgid "You do not have permission to create webhooks."
 msgstr "Vous n’avez pas le droit de créer des crochets Web."
 
-#. translators: %s item name.
-#: includes/class-wc-ajax.php:1318
-#: includes/legacy/api/v1/class-wc-api-resource.php:333
-#: includes/legacy/api/v2/class-wc-api-products.php:468
-#: includes/legacy/api/v2/class-wc-api-products.php:2176
-#: includes/legacy/api/v2/class-wc-api-resource.php:390
-#: includes/legacy/api/v3/class-wc-api-products.php:527
-#: includes/legacy/api/v3/class-wc-api-products.php:866
-#: includes/legacy/api/v3/class-wc-api-products.php:1058
-#: includes/legacy/api/v3/class-wc-api-products.php:2732
-#: includes/legacy/api/v3/class-wc-api-products.php:2994
-#: includes/legacy/api/v3/class-wc-api-products.php:3305
-#: includes/legacy/api/v3/class-wc-api-resource.php:394
-#: includes/legacy/api/v3/class-wc-api-taxes.php:354
-#: includes/legacy/api/v3/class-wc-api-taxes.php:623
-msgid "Deleted %s"
-msgstr "%s supprimé(s)"
-
 #: includes/legacy/api/v2/class-wc-api-products.php:2157
 #: includes/legacy/api/v3/class-wc-api-products.php:2712
 msgid "Could not delete the attribute"
@@ -25324,6 +25306,24 @@ msgstr "Vous n’avez pas le droit de supprimer des attributs de produit"
 #: includes/legacy/api/v3/class-wc-api-resource.php:384
 msgid "This %s cannot be deleted"
 msgstr "%s ne peut être supprimé"
+
+#. translators: %s item name.
+#: includes/class-wc-ajax.php:1318
+#: includes/legacy/api/v1/class-wc-api-resource.php:333
+#: includes/legacy/api/v2/class-wc-api-products.php:468
+#: includes/legacy/api/v2/class-wc-api-products.php:2176
+#: includes/legacy/api/v2/class-wc-api-resource.php:390
+#: includes/legacy/api/v3/class-wc-api-products.php:527
+#: includes/legacy/api/v3/class-wc-api-products.php:866
+#: includes/legacy/api/v3/class-wc-api-products.php:1058
+#: includes/legacy/api/v3/class-wc-api-products.php:2732
+#: includes/legacy/api/v3/class-wc-api-products.php:2994
+#: includes/legacy/api/v3/class-wc-api-products.php:3305
+#: includes/legacy/api/v3/class-wc-api-resource.php:394
+#: includes/legacy/api/v3/class-wc-api-taxes.php:354
+#: includes/legacy/api/v3/class-wc-api-taxes.php:623
+msgid "Deleted %s"
+msgstr "%s supprimé(s)"
 
 #: includes/legacy/api/v1/class-wc-api-server.php:168
 #: includes/legacy/api/v2/class-wc-api-server.php:164
@@ -26495,14 +26495,6 @@ msgstr "Saisissez un taux de taxe (en pourcentage) à 4 décimales."
 msgid "Enter a name for this tax rate."
 msgstr "Saisissez un nom pour ce taux de taxe."
 
-#: includes/admin/settings/views/html-settings-tax.php:39
-msgid "Choose whether or not this is a compound rate. Compound tax rates are applied on top of other tax rates."
-msgstr "Choisissez si oui ou non il s’agit d’un taux cumulable. Les taux cumulables sont appliqués sur les autres taux de taxe."
-
-#: includes/admin/settings/views/html-settings-tax.php:38
-msgid "Choose a priority for this tax rate. Only 1 matching rate per priority will be used. To define multiple tax rates for a single area you need to specify a different priority per rate."
-msgstr "Choisir une priorité pour ce taux de taxe. Seul 1 taux correspondant par priorité sera utilisé. Pour définir des taux de taxe multiples pour une seule zone vous devez spécifier une priorité différente par taux."
-
 #: includes/rest-api/Controllers/Version1/class-wc-rest-order-refunds-v1-controller.php:454
 #: includes/rest-api/Controllers/Version1/class-wc-rest-orders-v1-controller.php:1290
 #: includes/rest-api/Controllers/Version1/class-wc-rest-orders-v1-controller.php:1363
@@ -26516,6 +26508,14 @@ msgstr "Choisir une priorité pour ce taux de taxe. Seul 1 taux correspondant pa
 #: packages/woocommerce-admin/src/API/Reports/Taxes/Controller.php:157
 msgid "Tax rate ID."
 msgstr "ID du taux de taxe."
+
+#: includes/admin/settings/views/html-settings-tax.php:39
+msgid "Choose whether or not this is a compound rate. Compound tax rates are applied on top of other tax rates."
+msgstr "Choisissez si oui ou non il s’agit d’un taux cumulable. Les taux cumulables sont appliqués sur les autres taux de taxe."
+
+#: includes/admin/settings/views/html-settings-tax.php:38
+msgid "Choose a priority for this tax rate. Only 1 matching rate per priority will be used. To define multiple tax rates for a single area you need to specify a different priority per rate."
+msgstr "Choisir une priorité pour ce taux de taxe. Seul 1 taux correspondant par priorité sera utilisé. Pour définir des taux de taxe multiples pour une seule zone vous devez spécifier une priorité différente par taux."
 
 #: includes/admin/settings/views/settings-tax.php:34
 msgid "This option determines which address is used to calculate tax."
@@ -28570,6 +28570,19 @@ msgstr "Accorder l’accès"
 msgid "There are no notes yet."
 msgstr "Il n’y a pas encore de note."
 
+#: includes/admin/meta-boxes/class-wc-meta-box-order-data.php:273
+msgid "Customer:"
+msgstr "Client :"
+
+#: includes/admin/importers/class-wc-product-csv-importer-controller.php:419
+#: includes/admin/importers/class-wc-tax-rate-importer.php:130
+msgid "The file does not exist, please try again."
+msgstr "Le fichier n’existe pas, veuillez essayer de nouveau."
+
+#: includes/admin/importers/class-wc-tax-rate-importer.php:169
+msgid "The CSV is invalid."
+msgstr "Le CSV est non valide."
+
 #: includes/admin/class-wc-admin-profile.php:86
 #: includes/admin/class-wc-admin-profile.php:146
 #: includes/admin/list-tables/class-wc-admin-list-table-orders.php:385
@@ -28585,10 +28598,6 @@ msgstr "Il n’y a pas encore de note."
 #: packages/woocommerce-blocks/build/checkout.js:35
 msgid "Phone"
 msgstr "Téléphone"
-
-#: includes/admin/meta-boxes/class-wc-meta-box-order-data.php:273
-msgid "Customer:"
-msgstr "Client :"
 
 #: includes/admin/list-tables/class-wc-admin-list-table-orders.php:637
 #: includes/admin/list-tables/class-wc-admin-list-table-orders.php:638
@@ -28633,15 +28642,6 @@ msgstr "Client :"
 #: packages/woocommerce-blocks/build/wc-blocks-vendors.js:11
 msgid "N/A"
 msgstr "ND"
-
-#: includes/admin/importers/class-wc-product-csv-importer-controller.php:419
-#: includes/admin/importers/class-wc-tax-rate-importer.php:130
-msgid "The file does not exist, please try again."
-msgstr "Le fichier n’existe pas, veuillez essayer de nouveau."
-
-#: includes/admin/importers/class-wc-tax-rate-importer.php:169
-msgid "The CSV is invalid."
-msgstr "Le CSV est non valide."
 
 #: includes/admin/class-wc-admin-webhooks.php:56
 msgid "You do not have permission to update Webhooks"
@@ -29267,13 +29267,6 @@ msgstr "Catalogue"
 msgid "Search"
 msgstr "Recherche"
 
-#: includes/admin/views/html-bulk-edit-product.php:190
-#: includes/admin/views/html-quick-edit-product.php:148
-#: includes/customizer/class-wc-shop-customizer.php:747
-#: includes/wc-product-functions.php:813
-msgid "Hidden"
-msgstr "Caché"
-
 #: includes/admin/class-wc-admin-post-types.php:705
 msgid "OK"
 msgstr "OK"
@@ -29874,6 +29867,13 @@ msgstr "Le produit variable est pour les produits plus complexes tels que des te
 #: includes/admin/class-wc-admin-post-types.php:140
 msgid "Product scheduled for: %1$s. <a target=\"_blank\" href=\"%2$s\">Preview product</a>"
 msgstr "Produit programmé pour le : %1$s. <a target=\"_blank\" href=\"%2$s\">Aperçu du produit</a>"
+
+#: includes/admin/views/html-bulk-edit-product.php:190
+#: includes/admin/views/html-quick-edit-product.php:148
+#: includes/customizer/class-wc-shop-customizer.php:747
+#: includes/wc-product-functions.php:813
+msgid "Hidden"
+msgstr "Masqué"
 
 #: includes/admin/class-wc-admin-api-keys-table-list.php:48
 #: includes/admin/importers/class-wc-product-csv-importer-controller.php:513

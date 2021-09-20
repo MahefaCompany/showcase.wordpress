@@ -1,0 +1,20 @@
+{
+    "name": "mahefa/mahefa-rest-api-bp",
+    "description": "Mahefa Rest API PB",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Mahefa\\MahefaRestApiBp\\": "."
+        }
+    },
+    "authors": [
+        {
+            "name": "Mahefa Abel",
+            "email": "abelmahefa@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "symfony/var-dumper": "^5.3"
+    }
+}
