@@ -1,0 +1,121 @@
+2021-09-20T19:28:01+00:00 CRITICAL Uncaught Error: Undefined class constant 'MAJOR_VERSION' in D:\Mahefa\wp\showcase.wordpress\wp-content\plugins\mahefa-rest-api-bp\vendor\guzzlehttp\guzzle\src\Utils.php:113
+Stack trace:
+#0 D:\Mahefa\wp\showcase.wordpress\wp-content\plugins\mahefa-rest-api-bp\vendor\guzzlehttp\guzzle\src\functions.php(71): GuzzleHttp\Utils::defaultUserAgent()
+#1 D:\Mahefa\wp\showcase.wordpress\wp-content\plugins\woozone\composer\amazon-paapi\paapi5-php-sdk\vendor\guzzlehttp\guzzle\src\Client.php(194): GuzzleHttp\default_user_agent()
+#2 D:\Mahefa\wp\showcase.wordpress\wp-content\plugins\woozone\composer\amazon-paapi\paapi5-php-sdk\vendor\guzzlehttp\guzzle\src\Client.php(75): GuzzleHttp\Client->configureDefaults(Array)
+#3 D:\Mahefa\wp\showcase.wordpress\wp-content\plugins\woozone\lib\scripts\amazon\aaAmazonWSNew.class.php(137): GuzzleHttp\Client->__construct()
+#4 D:\Mahefa\wp\showcase.wordpress\wp-content\plugins\woozone\lib\scripts\amazon\aaAmazonWSNew.class.php(80): aaAmazonWSNew->init(Array)
+#5 D:\Mahefa\wp\showcase.wordpress dans D:\Mahefa\wp\showcase.wordpress\wp-content\plugins\mahefa-rest-api-bp\vendor\guzzlehttp\guzzle\src\Utils.php à la ligne 113
+
+2021-09-20T19:29:02+00:00 CRITICAL Uncaught Error: Undefined class constant 'MAJOR_VERSION' in D:\Mahefa\wp\showcase.wordpress\wp-content\plugins\mahefa-rest-api-bp\vendor\guzzlehttp\guzzle\src\Utils.php:113
+Stack trace:
+#0 D:\Mahefa\wp\showcase.wordpress\wp-content\plugins\mahefa-rest-api-bp\vendor\guzzlehttp\guzzle\src\functions.php(71): GuzzleHttp\Utils::defaultUserAgent()
+#1 D:\Mahefa\wp\showcase.wordpress\wp-content\plugins\woozone\composer\amazon-paapi\paapi5-php-sdk\vendor\guzzlehttp\guzzle\src\Client.php(194): GuzzleHttp\default_user_agent()
+#2 D:\Mahefa\wp\showcase.wordpress\wp-content\plugins\woozone\composer\amazon-paapi\paapi5-php-sdk\vendor\guzzlehttp\guzzle\src\Client.php(75): GuzzleHttp\Client->configureDefaults(Array)
+#3 D:\Mahefa\wp\showcase.wordpress\wp-content\plugins\woozone\lib\scripts\amazon\aaAmazonWSNew.class.php(137): GuzzleHttp\Client->__construct()
+#4 D:\Mahefa\wp\showcase.wordpress\wp-content\plugins\woozone\lib\scripts\amazon\aaAmazonWSNew.class.php(80): aaAmazonWSNew->init(Array)
+#5 D:\Mahefa\wp\showcase.wordpress dans D:\Mahefa\wp\showcase.wordpress\wp-content\plugins\mahefa-rest-api-bp\vendor\guzzlehttp\guzzle\src\Utils.php à la ligne 113
+
+2021-09-20T19:31:04+00:00 CRITICAL Uncaught Error: Undefined class constant 'MAJOR_VERSION' in D:\Mahefa\wp\showcase.wordpress\wp-content\plugins\mahefa-rest-api-bp\vendor\guzzlehttp\guzzle\src\Utils.php:113
+Stack trace:
+#0 D:\Mahefa\wp\showcase.wordpress\wp-content\plugins\mahefa-rest-api-bp\vendor\guzzlehttp\guzzle\src\functions.php(71): GuzzleHttp\Utils::defaultUserAgent()
+#1 D:\Mahefa\wp\showcase.wordpress\wp-content\plugins\woozone\composer\amazon-paapi\paapi5-php-sdk\vendor\guzzlehttp\guzzle\src\Client.php(194): GuzzleHttp\default_user_agent()
+#2 D:\Mahefa\wp\showcase.wordpress\wp-content\plugins\woozone\composer\amazon-paapi\paapi5-php-sdk\vendor\guzzlehttp\guzzle\src\Client.php(75): GuzzleHttp\Client->configureDefaults(Array)
+#3 D:\Mahefa\wp\showcase.wordpress\wp-content\plugins\woozone\lib\scripts\amazon\aaAmazonWSNew.class.php(137): GuzzleHttp\Client->__construct()
+#4 D:\Mahefa\wp\showcase.wordpress\wp-content\plugins\woozone\lib\scripts\amazon\aaAmazonWSNew.class.php(80): aaAmazonWSNew->init(Array)
+#5 D:\Mahefa\wp\showcase.wordpress dans D:\Mahefa\wp\showcase.wordpress\wp-content\plugins\mahefa-rest-api-bp\vendor\guzzlehttp\guzzle\src\Utils.php à la ligne 113
+
+2021-09-20T19:33:04+00:00 CRITICAL Uncaught Error: Undefined class constant 'MAJOR_VERSION' in D:\Mahefa\wp\showcase.wordpress\wp-content\plugins\mahefa-rest-api-bp\vendor\guzzlehttp\guzzle\src\Utils.php:113
+Stack trace:
+#0 D:\Mahefa\wp\showcase.wordpress\wp-content\plugins\mahefa-rest-api-bp\vendor\guzzlehttp\guzzle\src\functions.php(71): GuzzleHttp\Utils::defaultUserAgent()
+#1 D:\Mahefa\wp\showcase.wordpress\wp-content\plugins\woozone\composer\amazon-paapi\paapi5-php-sdk\vendor\guzzlehttp\guzzle\src\Client.php(194): GuzzleHttp\default_user_agent()
+#2 D:\Mahefa\wp\showcase.wordpress\wp-content\plugins\woozone\composer\amazon-paapi\paapi5-php-sdk\vendor\guzzlehttp\guzzle\src\Client.php(75): GuzzleHttp\Client->configureDefaults(Array)
+#3 D:\Mahefa\wp\showcase.wordpress\wp-content\plugins\woozone\lib\scripts\amazon\aaAmazonWSNew.class.php(137): GuzzleHttp\Client->__construct()
+#4 D:\Mahefa\wp\showcase.wordpress\wp-content\plugins\woozone\lib\scripts\amazon\aaAmazonWSNew.class.php(80): aaAmazonWSNew->init(Array)
+#5 D:\Mahefa\wp\showcase.wordpress dans D:\Mahefa\wp\showcase.wordpress\wp-content\plugins\mahefa-rest-api-bp\vendor\guzzlehttp\guzzle\src\Utils.php à la ligne 113
+
+2021-09-20T19:35:05+00:00 CRITICAL Uncaught Error: Undefined class constant 'MAJOR_VERSION' in D:\Mahefa\wp\showcase.wordpress\wp-content\plugins\mahefa-rest-api-bp\vendor\guzzlehttp\guzzle\src\Utils.php:113
+Stack trace:
+#0 D:\Mahefa\wp\showcase.wordpress\wp-content\plugins\mahefa-rest-api-bp\vendor\guzzlehttp\guzzle\src\functions.php(71): GuzzleHttp\Utils::defaultUserAgent()
+#1 D:\Mahefa\wp\showcase.wordpress\wp-content\plugins\woozone\composer\amazon-paapi\paapi5-php-sdk\vendor\guzzlehttp\guzzle\src\Client.php(194): GuzzleHttp\default_user_agent()
+#2 D:\Mahefa\wp\showcase.wordpress\wp-content\plugins\woozone\composer\amazon-paapi\paapi5-php-sdk\vendor\guzzlehttp\guzzle\src\Client.php(75): GuzzleHttp\Client->configureDefaults(Array)
+#3 D:\Mahefa\wp\showcase.wordpress\wp-content\plugins\woozone\lib\scripts\amazon\aaAmazonWSNew.class.php(137): GuzzleHttp\Client->__construct()
+#4 D:\Mahefa\wp\showcase.wordpress\wp-content\plugins\woozone\lib\scripts\amazon\aaAmazonWSNew.class.php(80): aaAmazonWSNew->init(Array)
+#5 D:\Mahefa\wp\showcase.wordpress dans D:\Mahefa\wp\showcase.wordpress\wp-content\plugins\mahefa-rest-api-bp\vendor\guzzlehttp\guzzle\src\Utils.php à la ligne 113
+
+2021-09-20T19:37:06+00:00 CRITICAL Uncaught Error: Undefined class constant 'MAJOR_VERSION' in D:\Mahefa\wp\showcase.wordpress\wp-content\plugins\mahefa-rest-api-bp\vendor\guzzlehttp\guzzle\src\Utils.php:113
+Stack trace:
+#0 D:\Mahefa\wp\showcase.wordpress\wp-content\plugins\mahefa-rest-api-bp\vendor\guzzlehttp\guzzle\src\functions.php(71): GuzzleHttp\Utils::defaultUserAgent()
+#1 D:\Mahefa\wp\showcase.wordpress\wp-content\plugins\woozone\composer\amazon-paapi\paapi5-php-sdk\vendor\guzzlehttp\guzzle\src\Client.php(194): GuzzleHttp\default_user_agent()
+#2 D:\Mahefa\wp\showcase.wordpress\wp-content\plugins\woozone\composer\amazon-paapi\paapi5-php-sdk\vendor\guzzlehttp\guzzle\src\Client.php(75): GuzzleHttp\Client->configureDefaults(Array)
+#3 D:\Mahefa\wp\showcase.wordpress\wp-content\plugins\woozone\lib\scripts\amazon\aaAmazonWSNew.class.php(137): GuzzleHttp\Client->__construct()
+#4 D:\Mahefa\wp\showcase.wordpress\wp-content\plugins\woozone\lib\scripts\amazon\aaAmazonWSNew.class.php(80): aaAmazonWSNew->init(Array)
+#5 D:\Mahefa\wp\showcase.wordpress dans D:\Mahefa\wp\showcase.wordpress\wp-content\plugins\mahefa-rest-api-bp\vendor\guzzlehttp\guzzle\src\Utils.php à la ligne 113
+
+2021-09-20T19:45:02+00:00 CRITICAL Uncaught Error: Undefined class constant 'MAJOR_VERSION' in D:\Mahefa\wp\showcase.wordpress\wp-content\plugins\mahefa-rest-api-bp\vendor\guzzlehttp\guzzle\src\Utils.php:113
+Stack trace:
+#0 D:\Mahefa\wp\showcase.wordpress\wp-content\plugins\mahefa-rest-api-bp\vendor\guzzlehttp\guzzle\src\functions.php(71): GuzzleHttp\Utils::defaultUserAgent()
+#1 D:\Mahefa\wp\showcase.wordpress\wp-content\plugins\woozone\composer\amazon-paapi\paapi5-php-sdk\vendor\guzzlehttp\guzzle\src\Client.php(194): GuzzleHttp\default_user_agent()
+#2 D:\Mahefa\wp\showcase.wordpress\wp-content\plugins\woozone\composer\amazon-paapi\paapi5-php-sdk\vendor\guzzlehttp\guzzle\src\Client.php(75): GuzzleHttp\Client->configureDefaults(Array)
+#3 D:\Mahefa\wp\showcase.wordpress\wp-content\plugins\woozone\lib\scripts\amazon\aaAmazonWSNew.class.php(137): GuzzleHttp\Client->__construct()
+#4 D:\Mahefa\wp\showcase.wordpress\wp-content\plugins\woozone\lib\scripts\amazon\aaAmazonWSNew.class.php(80): aaAmazonWSNew->init(Array)
+#5 D:\Mahefa\wp\showcase.wordpress dans D:\Mahefa\wp\showcase.wordpress\wp-content\plugins\mahefa-rest-api-bp\vendor\guzzlehttp\guzzle\src\Utils.php à la ligne 113
+
+2021-09-20T19:47:03+00:00 CRITICAL Uncaught Error: Undefined class constant 'MAJOR_VERSION' in D:\Mahefa\wp\showcase.wordpress\wp-content\plugins\mahefa-rest-api-bp\vendor\guzzlehttp\guzzle\src\Utils.php:113
+Stack trace:
+#0 D:\Mahefa\wp\showcase.wordpress\wp-content\plugins\mahefa-rest-api-bp\vendor\guzzlehttp\guzzle\src\functions.php(71): GuzzleHttp\Utils::defaultUserAgent()
+#1 D:\Mahefa\wp\showcase.wordpress\wp-content\plugins\woozone\composer\amazon-paapi\paapi5-php-sdk\vendor\guzzlehttp\guzzle\src\Client.php(194): GuzzleHttp\default_user_agent()
+#2 D:\Mahefa\wp\showcase.wordpress\wp-content\plugins\woozone\composer\amazon-paapi\paapi5-php-sdk\vendor\guzzlehttp\guzzle\src\Client.php(75): GuzzleHttp\Client->configureDefaults(Array)
+#3 D:\Mahefa\wp\showcase.wordpress\wp-content\plugins\woozone\lib\scripts\amazon\aaAmazonWSNew.class.php(137): GuzzleHttp\Client->__construct()
+#4 D:\Mahefa\wp\showcase.wordpress\wp-content\plugins\woozone\lib\scripts\amazon\aaAmazonWSNew.class.php(80): aaAmazonWSNew->init(Array)
+#5 D:\Mahefa\wp\showcase.wordpress dans D:\Mahefa\wp\showcase.wordpress\wp-content\plugins\mahefa-rest-api-bp\vendor\guzzlehttp\guzzle\src\Utils.php à la ligne 113
+
+2021-09-20T19:49:04+00:00 CRITICAL Uncaught Error: Undefined class constant 'MAJOR_VERSION' in D:\Mahefa\wp\showcase.wordpress\wp-content\plugins\mahefa-rest-api-bp\vendor\guzzlehttp\guzzle\src\Utils.php:113
+Stack trace:
+#0 D:\Mahefa\wp\showcase.wordpress\wp-content\plugins\mahefa-rest-api-bp\vendor\guzzlehttp\guzzle\src\functions.php(71): GuzzleHttp\Utils::defaultUserAgent()
+#1 D:\Mahefa\wp\showcase.wordpress\wp-content\plugins\woozone\composer\amazon-paapi\paapi5-php-sdk\vendor\guzzlehttp\guzzle\src\Client.php(194): GuzzleHttp\default_user_agent()
+#2 D:\Mahefa\wp\showcase.wordpress\wp-content\plugins\woozone\composer\amazon-paapi\paapi5-php-sdk\vendor\guzzlehttp\guzzle\src\Client.php(75): GuzzleHttp\Client->configureDefaults(Array)
+#3 D:\Mahefa\wp\showcase.wordpress\wp-content\plugins\woozone\lib\scripts\amazon\aaAmazonWSNew.class.php(137): GuzzleHttp\Client->__construct()
+#4 D:\Mahefa\wp\showcase.wordpress\wp-content\plugins\woozone\lib\scripts\amazon\aaAmazonWSNew.class.php(80): aaAmazonWSNew->init(Array)
+#5 D:\Mahefa\wp\showcase.wordpress dans D:\Mahefa\wp\showcase.wordpress\wp-content\plugins\mahefa-rest-api-bp\vendor\guzzlehttp\guzzle\src\Utils.php à la ligne 113
+
+2021-09-20T19:51:05+00:00 CRITICAL Cannot declare interface GuzzleHttp\ClientInterface, because the name is already in use dans D:\Mahefa\wp\showcase.wordpress\wp-content\plugins\mahefa-rest-api-bp\vendor\guzzlehttp\guzzle\src\ClientInterface.php à la ligne 14
+
+2021-09-20T19:53:07+00:00 CRITICAL Cannot declare interface GuzzleHttp\ClientInterface, because the name is already in use dans D:\Mahefa\wp\showcase.wordpress\wp-content\plugins\mahefa-rest-api-bp\vendor\guzzlehttp\guzzle\src\ClientInterface.php à la ligne 14
+
+2021-09-20T19:55:56+00:00 CRITICAL Uncaught GuzzleHttp\Exception\RequestException: cURL error 60: SSL certificate problem: unable to get local issuer certificate (see http://curl.haxx.se/libcurl/c/libcurl-errors.html) in D:\Mahefa\wp\showcase.wordpress\wp-content\plugins\woozone\composer\amazon-paapi\paapi5-php-sdk\vendor\guzzlehttp\guzzle\src\Handler\CurlFactory.php:186
+Stack trace:
+#0 D:\Mahefa\wp\showcase.wordpress\wp-content\plugins\woozone\composer\amazon-paapi\paapi5-php-sdk\vendor\guzzlehttp\guzzle\src\Handler\CurlFactory.php(149): GuzzleHttp\Handler\CurlFactory::createRejection(Object(GuzzleHttp\Handler\EasyHandle), Array)
+#1 D:\Mahefa\wp\showcase.wordpress\wp-content\plugins\woozone\composer\amazon-paapi\paapi5-php-sdk\vendor\guzzlehttp\guzzle\src\Handler\CurlFactory.php(102): GuzzleHttp\Handler\CurlFactory::finishError(Object(GuzzleHttp\Handler\CurlHandler), Object(GuzzleHttp\Handler\EasyHandle), Object(GuzzleHttp\Handler\CurlFactory))
+#2 D:\Mahefa\wp\showcase.wordpress\wp-content\plugins\woozone\composer\amazon-paapi\paapi5-php-sdk\ dans D:\Mahefa\wp\showcase.wordpress\wp-content\plugins\woozone\composer\amazon-paapi\paapi5-php-sdk\vendor\guzzlehttp\guzzle\src\Handler\CurlFactory.php à la ligne 186
+
+2021-09-20T19:57:01+00:00 CRITICAL Uncaught GuzzleHttp\Exception\RequestException: cURL error 60: SSL certificate problem: unable to get local issuer certificate (see http://curl.haxx.se/libcurl/c/libcurl-errors.html) in D:\Mahefa\wp\showcase.wordpress\wp-content\plugins\woozone\composer\amazon-paapi\paapi5-php-sdk\vendor\guzzlehttp\guzzle\src\Handler\CurlFactory.php:186
+Stack trace:
+#0 D:\Mahefa\wp\showcase.wordpress\wp-content\plugins\woozone\composer\amazon-paapi\paapi5-php-sdk\vendor\guzzlehttp\guzzle\src\Handler\CurlFactory.php(149): GuzzleHttp\Handler\CurlFactory::createRejection(Object(GuzzleHttp\Handler\EasyHandle), Array)
+#1 D:\Mahefa\wp\showcase.wordpress\wp-content\plugins\woozone\composer\amazon-paapi\paapi5-php-sdk\vendor\guzzlehttp\guzzle\src\Handler\CurlFactory.php(102): GuzzleHttp\Handler\CurlFactory::finishError(Object(GuzzleHttp\Handler\CurlHandler), Object(GuzzleHttp\Handler\EasyHandle), Object(GuzzleHttp\Handler\CurlFactory))
+#2 D:\Mahefa\wp\showcase.wordpress\wp-content\plugins\woozone\composer\amazon-paapi\paapi5-php-sdk\ dans D:\Mahefa\wp\showcase.wordpress\wp-content\plugins\woozone\composer\amazon-paapi\paapi5-php-sdk\vendor\guzzlehttp\guzzle\src\Handler\CurlFactory.php à la ligne 186
+
+2021-09-20T19:57:10+00:00 CRITICAL Uncaught GuzzleHttp\Exception\RequestException: cURL error 60: SSL certificate problem: unable to get local issuer certificate (see http://curl.haxx.se/libcurl/c/libcurl-errors.html) in D:\Mahefa\wp\showcase.wordpress\wp-content\plugins\woozone\composer\amazon-paapi\paapi5-php-sdk\vendor\guzzlehttp\guzzle\src\Handler\CurlFactory.php:186
+Stack trace:
+#0 D:\Mahefa\wp\showcase.wordpress\wp-content\plugins\woozone\composer\amazon-paapi\paapi5-php-sdk\vendor\guzzlehttp\guzzle\src\Handler\CurlFactory.php(149): GuzzleHttp\Handler\CurlFactory::createRejection(Object(GuzzleHttp\Handler\EasyHandle), Array)
+#1 D:\Mahefa\wp\showcase.wordpress\wp-content\plugins\woozone\composer\amazon-paapi\paapi5-php-sdk\vendor\guzzlehttp\guzzle\src\Handler\CurlFactory.php(102): GuzzleHttp\Handler\CurlFactory::finishError(Object(GuzzleHttp\Handler\CurlHandler), Object(GuzzleHttp\Handler\EasyHandle), Object(GuzzleHttp\Handler\CurlFactory))
+#2 D:\Mahefa\wp\showcase.wordpress\wp-content\plugins\woozone\composer\amazon-paapi\paapi5-php-sdk\ dans D:\Mahefa\wp\showcase.wordpress\wp-content\plugins\woozone\composer\amazon-paapi\paapi5-php-sdk\vendor\guzzlehttp\guzzle\src\Handler\CurlFactory.php à la ligne 186
+
+2021-09-20T20:02:26+00:00 CRITICAL Uncaught GuzzleHttp\Exception\RequestException: cURL error 60: SSL certificate problem: unable to get local issuer certificate (see http://curl.haxx.se/libcurl/c/libcurl-errors.html) in D:\Mahefa\wp\showcase.wordpress\wp-content\plugins\woozone\composer\amazon-paapi\paapi5-php-sdk\vendor\guzzlehttp\guzzle\src\Handler\CurlFactory.php:186
+Stack trace:
+#0 D:\Mahefa\wp\showcase.wordpress\wp-content\plugins\woozone\composer\amazon-paapi\paapi5-php-sdk\vendor\guzzlehttp\guzzle\src\Handler\CurlFactory.php(149): GuzzleHttp\Handler\CurlFactory::createRejection(Object(GuzzleHttp\Handler\EasyHandle), Array)
+#1 D:\Mahefa\wp\showcase.wordpress\wp-content\plugins\woozone\composer\amazon-paapi\paapi5-php-sdk\vendor\guzzlehttp\guzzle\src\Handler\CurlFactory.php(102): GuzzleHttp\Handler\CurlFactory::finishError(Object(GuzzleHttp\Handler\CurlHandler), Object(GuzzleHttp\Handler\EasyHandle), Object(GuzzleHttp\Handler\CurlFactory))
+#2 D:\Mahefa\wp\showcase.wordpress\wp-content\plugins\woozone\composer\amazon-paapi\paapi5-php-sdk\ dans D:\Mahefa\wp\showcase.wordpress\wp-content\plugins\woozone\composer\amazon-paapi\paapi5-php-sdk\vendor\guzzlehttp\guzzle\src\Handler\CurlFactory.php à la ligne 186
+
+2021-09-20T20:04:19+00:00 CRITICAL Uncaught GuzzleHttp\Exception\ClientException: Client error: `GET https://preprod.bookprunelle.com/ebooks/regular/en/zero-waste/preview/` resulted in a `404 Not Found` response:
+<!DOCTYPE html>
+<html lang="en-US" prefix="og: https://ogp.me/ns#">
+<head>
+<meta charset="UTF-8">
+<meta name="viewpo (truncated...)
+ in D:\Mahefa\wp\showcase.wordpress\wp-content\plugins\woozone\composer\amazon-paapi\paapi5-php-sdk\vendor\guzzlehttp\guzzle\src\Exception\RequestException.php:113
+Stack trace:
+#0 D:\Mahefa\wp\showcase.wordpress\wp-content\plugins\woozone\composer\amazon-paapi\paapi5-php-sdk\vendor\guzzlehttp\guzzle\src\Middleware.php(66): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Psr7\Request), Object(GuzzleHttp\Psr7\Response))
+#1 D:\Mahefa\wp\showcase.wordpress\wp-content\plugins\woozone\composer\amazon-paapi\paapi5-php-sdk\vendor\guzzlehttp\promises\src\Promise.php(203): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Response))
+#2 D:\Mahefa\wp\showcase.wordpress\wp-content\ dans D:\Mahefa\wp\showcase.wordpress\wp-content\plugins\woozone\composer\amazon-paapi\paapi5-php-sdk\vendor\guzzlehttp\guzzle\src\Exception\RequestException.php à la ligne 113
+

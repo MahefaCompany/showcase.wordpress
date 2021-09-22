@@ -1,0 +1,24 @@
+2021-09-21T06:12:25+00:00 CRITICAL Uncaught GuzzleHttp\Exception\ClientException: Client error: `GET https://preprod.bookprunelle.com/ebooks/regular/en/zero-waste/preview/` resulted in a `404 Not Found` response:
+<!DOCTYPE html>
+<html lang="en-US" prefix="og: https://ogp.me/ns#">
+<head>
+<meta charset="UTF-8">
+<meta name="viewpo (truncated...)
+ in D:\Mahefa\wp\showcase.wordpress\wp-content\plugins\woozone\composer\amazon-paapi\paapi5-php-sdk\vendor\guzzlehttp\guzzle\src\Exception\RequestException.php:113
+Stack trace:
+#0 D:\Mahefa\wp\showcase.wordpress\wp-content\plugins\woozone\composer\amazon-paapi\paapi5-php-sdk\vendor\guzzlehttp\guzzle\src\Middleware.php(66): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Psr7\Request), Object(GuzzleHttp\Psr7\Response))
+#1 D:\Mahefa\wp\showcase.wordpress\wp-content\plugins\woozone\composer\amazon-paapi\paapi5-php-sdk\vendor\guzzlehttp\promises\src\Promise.php(203): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Response))
+#2 D:\Mahefa\wp\showcase.wordpress\wp-content\ dans D:\Mahefa\wp\showcase.wordpress\wp-content\plugins\woozone\composer\amazon-paapi\paapi5-php-sdk\vendor\guzzlehttp\guzzle\src\Exception\RequestException.php à la ligne 113
+
+2021-09-21T17:23:55+00:00 CRITICAL Uncaught GuzzleHttp\Exception\ClientException: Client error: `GET https://preprod.bookprunelle.com/ebooks/regular/en/zero-waste/preview/` resulted in a `404 Not Found` response:
+<!DOCTYPE html>
+<html lang="en-US" prefix="og: https://ogp.me/ns#">
+<head>
+<meta charset="UTF-8">
+<meta name="viewpo (truncated...)
+ in D:\Mahefa\wp\showcase.wordpress\wp-content\plugins\woozone\composer\amazon-paapi\paapi5-php-sdk\vendor\guzzlehttp\guzzle\src\Exception\RequestException.php:113
+Stack trace:
+#0 D:\Mahefa\wp\showcase.wordpress\wp-content\plugins\woozone\composer\amazon-paapi\paapi5-php-sdk\vendor\guzzlehttp\guzzle\src\Middleware.php(66): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Psr7\Request), Object(GuzzleHttp\Psr7\Response))
+#1 D:\Mahefa\wp\showcase.wordpress\wp-content\plugins\woozone\composer\amazon-paapi\paapi5-php-sdk\vendor\guzzlehttp\promises\src\Promise.php(203): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Response))
+#2 D:\Mahefa\wp\showcase.wordpress\wp-content\ dans D:\Mahefa\wp\showcase.wordpress\wp-content\plugins\woozone\composer\amazon-paapi\paapi5-php-sdk\vendor\guzzlehttp\guzzle\src\Exception\RequestException.php à la ligne 113
+
