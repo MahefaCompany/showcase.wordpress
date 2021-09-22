@@ -26,7 +26,7 @@ require_once("OAuth2Beneylu.php");
 
 // http://wp.loc:81/wp-json/mahefa/bp/v1/books/4
  function rest_api_main_custom_fct( WP_REST_Request $request ) {
-    OAuth2Beneylu::Main();
+    OAuth2Beneylu::Main($request);
 }
 
 add_action( 'rest_api_init', function () {
