@@ -5,10 +5,13 @@ class OAuth2Beneylu {
     const authorize_url = "https://login.school.test.beneylu.com/oauth/v2/authorize";
     const token_url = "https://login.school.test.beneylu.com/oauth/v2/token";
     const me_url = "https://login.school.test.beneylu.com/oauth/v2/me";
-    const callback_uri = "/wp-json/mahefa/bp/v1/books/4";
 
-    const client_id = "<<client_id>>";
-    const client_secret = "<<client_secret>>";
+    // const callback_uri = "/wp-json/mahefa/bp/v1/books/4";
+    // const callback_uri = "http://preprod.bookprunelle.com";
+    const callback_uri = "http://preprod.bookprunelle.com/wp-json/mahefa/bp/v1/books/4";
+
+    const client_id = "6_00006";
+    const client_secret = "875eeZ8k&Sme8";
     const test_api_url = "<<your API>>";
 
     public static function Main(WP_REST_Request $request): void {
@@ -69,20 +72,19 @@ class OAuth2Beneylu {
     }
 
     private static function getAuthorizationCode() {
-        // $authorization_redirect_url = self::authorize_url . "?response_type=code&client_id=" . self::client_id . "&redirect_uri=" . self::callback_uri . "&scope=openid";
         $authorization_redirect_url = self::authorize_url . "?" .
             http_build_query([
                 'response_type' => 'code',
                 'client_id' => self::client_id,
-                'redirect_uri' => self::getBaseUrl() . self::callback_uri,
+                'redirect_uri' => self::callback_uri,
                 // 'state' => $_SESSION['state'],
-                'scope' => 'openid',
+                // 'scope' => 'openid',
+                'scope' => 'category_2',
             ]);
         Logs::info("OAuth2Beneylu::getAuthorizationCode::80", "authorization_redirect_url: ".$authorization_redirect_url);
+        
         header("Location: " . $authorization_redirect_url);
-    
-        //	if you don't want to redirect
-        // echo "Go <a href='$authorization_redirect_url'>here</a>, copy the code, and paste it into the box below.<br /><form action=" . $_SERVER["PHP_SELF"] . " method = 'post'><input type='text' name='authorization_code' /><br /><input type='submit'></form>";
+        die;
     }
 
     private static function getAccessToken($authorization_code) {   
@@ -160,5 +162,7 @@ class OAuth2Beneylu {
     );
  *  
  * 
+ * https://preprod.bookprunelle.com/?error=invalid_scope&error_description=An invalid scope was requested.
+ * https://preprod.bookprunelle.com/?code=ZjAxODYzN2M3YjRhNWYzODMyYTViMGNjMGI2Mjk5ZmM4ODFlMzNiODcxNTdmOGM1YTFjYmMwMjA5NWM2NjkxMA
  * 
  */
