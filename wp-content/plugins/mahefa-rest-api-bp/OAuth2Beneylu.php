@@ -8,7 +8,8 @@ class OAuth2Beneylu {
 
     // const callback_uri = "/wp-json/mahefa/bp/v1/books/4";
     // const callback_uri = "http://preprod.bookprunelle.com";
-    const callback_uri = "http://preprod.bookprunelle.com/wp-json/mahefa/bp/v1/books/4";
+    // const callback_uri = "http://preprod.bookprunelle.com/wp-json/mahefa/bp/v1/books/4";
+    const callback_uri = "http://preprod.bookprunelle.com/wp-json/wp/v2/posts/15490";
 
     const client_id = "6_00006";
     const client_secret = "875eeZ8k&Sme8";
