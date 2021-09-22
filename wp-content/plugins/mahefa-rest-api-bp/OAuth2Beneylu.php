@@ -9,7 +9,8 @@ class OAuth2Beneylu {
     // const callback_uri = "/wp-json/mahefa/bp/v1/books/4";
     // const callback_uri = "http://preprod.bookprunelle.com";
     // const callback_uri = "http://preprod.bookprunelle.com/wp-json/mahefa/bp/v1/books/4";
-    const callback_uri = "http://preprod.bookprunelle.com/wp-json/wp/v2/posts/15490";
+    // const callback_uri = "http://preprod.bookprunelle.com/wp-json/wp/v2/posts/15490";
+    const callback_uri = "http://preprod.bookprunelle.com/wp-content/ebooks/regular/en/zero-waste/preview/";
 
     const client_id = "6_00006";
     const client_secret = "875eeZ8k&Sme8";
@@ -23,14 +24,13 @@ class OAuth2Beneylu {
         $idBook = $request->get_param( 'id' );
         Logs::info("OAuth2Beneylu::Main::20, idBook:", $idBook);
 
-        $baseUrl = "https://preprod.bookprunelle.com/wp-content/";
-        $endpoint = '/ebooks/regular/en/zero-waste/preview/';
-        $urlFull = $baseUrl.$endpoint;
+        // $baseUrl = "http://preprod.bookprunelle.com/wp-content/";
+        // $endpoint = '/ebooks/regular/en/zero-waste/preview/';
+        // $urlFull = $baseUrl.$endpoint;
         
         // $client = new GuzzleHttp\Client(['base_uri' => $baseUrl]);
         // $responseHttp = $client->request('GET', $endpoint);
-        $responseHttp = "";
-        // dump($responseHttp); die;
+        // $responseHttp = "";
         // $posts = get_posts(array(
         //     'author' => $data['id'],
         // ));
@@ -49,12 +49,14 @@ class OAuth2Beneylu {
 
         if (isset($_POST["authorization_code"])) {
             Logs::info("OAuth2Beneylu::Main::47, authorization_code:", $_POST["authorization_code"]);
+            return; // There no ressource to get in Beneylu
             //	what to do if there's an authorization code
             $access_token = self::getAccessToken($_POST["authorization_code"]);
             $resource = self::getResource($access_token);
             echo $resource;
         } elseif (isset($_GET["code"])) {
             Logs::info("OAuth2Beneylu::Main::53, code:", $_POST["code"]);
+            return; // There no ressource to get in Beneylu
             $access_token = self::getAccessToken($_GET["code"]);
             $resource = self::getResource($access_token);
             echo $resource;
