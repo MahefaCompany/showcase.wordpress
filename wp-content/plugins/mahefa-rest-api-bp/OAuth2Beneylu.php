@@ -12,7 +12,7 @@ class OAuth2Beneylu {
     const test_api_url = "<<your API>>";
 
     public static function Main(WP_REST_Request $request): void {
-        Logs::info("OAuth2Beneylu::Main::15");
+        Logs::info("OAuth2Beneylu::Main::15", null, true);
         // unset(\GuzzleHttp\ClientInterface);
         // add_submenu_page("options-general.php", "Crunchify Plugin", "Crunchify Plugin", "manage_options", "crunchify-hello-world", "crunchify_hello_world_page");
 
@@ -46,18 +46,18 @@ class OAuth2Beneylu {
         if (isset($_POST["authorization_code"])) {
             Logs::info("OAuth2Beneylu::Main::47, authorization_code:", $_POST["authorization_code"]);
             //	what to do if there's an authorization code
-            $access_token = getAccessToken($_POST["authorization_code"]);
-            $resource = getResource($access_token);
+            $access_token = self::getAccessToken($_POST["authorization_code"]);
+            $resource = self::getResource($access_token);
             echo $resource;
         } elseif (isset($_GET["code"])) {
             Logs::info("OAuth2Beneylu::Main::53, code:", $_POST["code"]);
-            $access_token = getAccessToken($_GET["code"]);
-            $resource = getResource($access_token);
+            $access_token = self::getAccessToken($_GET["code"]);
+            $resource = self::getResource($access_token);
             echo $resource;
         } else {
             Logs::info("OAuth2Beneylu::Main::58", "else");
             //	what to do if there's no authorization code
-            getAuthorizationCode();
+            self::getAuthorizationCode();
         }
         
         // header('Location: ' . $urlFull, true, 301);
@@ -78,7 +78,7 @@ class OAuth2Beneylu {
                 // 'state' => $_SESSION['state'],
                 'scope' => 'openid',
             ]);
-    
+        Logs::info("OAuth2Beneylu::getAuthorizationCode::80", "authorization_redirect_url: ".$authorization_redirect_url);
         header("Location: " . $authorization_redirect_url);
     
         //	if you don't want to redirect

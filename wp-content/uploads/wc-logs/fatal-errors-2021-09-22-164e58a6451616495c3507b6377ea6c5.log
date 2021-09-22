@@ -8,3 +8,29 @@ Stack trace:
 #5 D:\Mahefa\wp\showcase.wordpress\wp-includes\class-wp-hook.php(303): rest_api_loaded(Object(WP))
 #6 D:\Mahefa\wp\showcase.wordpress\wp-includes\class-wp-ho dans D:\Mahefa\wp\showcase.wordpress\wp-content\plugins\mahefa-rest-api-bp\OAuth2Beneylu.php à la ligne 13
 
+2021-09-22T19:33:31+00:00 CRITICAL Uncaught TypeError: Argument 2 passed to Logs::info() must be of the type string, array given, called in D:\Mahefa\wp\showcase.wordpress\wp-content\plugins\mahefa-rest-api-bp\OAuth2Beneylu.php on line 43 and defined in D:\Mahefa\wp\showcase.wordpress\wp-content\plugins\mahefa-rest-api-bp\Logs.php:12
+Stack trace:
+#0 D:\Mahefa\wp\showcase.wordpress\wp-content\plugins\mahefa-rest-api-bp\OAuth2Beneylu.php(43): Logs::info('OAuth2Beneylu::...', Array)
+#1 D:\Mahefa\wp\showcase.wordpress\wp-content\plugins\mahefa-rest-api-bp\mahefa-rest-api-bp.php(29): OAuth2Beneylu::Main(Object(WP_REST_Request))
+#2 D:\Mahefa\wp\showcase.wordpress\wp-includes\rest-api\class-wp-rest-server.php(1140): rest_api_main_custom_fct(Object(WP_REST_Request))
+#3 D:\Mahefa\wp\showcase.wordpress\wp-includes\rest-api\class-wp-rest-server.php(987): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/mahefa/bp/v1/b...', Array, NULL)
+#4 D:\Mahefa\wp\showcase.wordpress\wp-includes\rest-api\class-wp-rest-server.php(414): WP_REST_Server->dispa dans D:\Mahefa\wp\showcase.wordpress\wp-content\plugins\mahefa-rest-api-bp\Logs.php à la ligne 12
+
+2021-09-22T19:34:56+00:00 CRITICAL Uncaught TypeError: Argument 2 passed to Logs::info() must be an instance of mixed or null, string given, called in D:\Mahefa\wp\showcase.wordpress\wp-content\plugins\mahefa-rest-api-bp\OAuth2Beneylu.php on line 20 and defined in D:\Mahefa\wp\showcase.wordpress\wp-content\plugins\mahefa-rest-api-bp\Logs.php:12
+Stack trace:
+#0 D:\Mahefa\wp\showcase.wordpress\wp-content\plugins\mahefa-rest-api-bp\OAuth2Beneylu.php(20): Logs::info('OAuth2Beneylu::...', '4')
+#1 D:\Mahefa\wp\showcase.wordpress\wp-content\plugins\mahefa-rest-api-bp\mahefa-rest-api-bp.php(29): OAuth2Beneylu::Main(Object(WP_REST_Request))
+#2 D:\Mahefa\wp\showcase.wordpress\wp-includes\rest-api\class-wp-rest-server.php(1140): rest_api_main_custom_fct(Object(WP_REST_Request))
+#3 D:\Mahefa\wp\showcase.wordpress\wp-includes\rest-api\class-wp-rest-server.php(987): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/mahefa/bp/v1/b...', Array, NULL)
+#4 D:\Mahefa\wp\showcase.wordpress\wp-includes\rest-api\class-wp-rest-server.php(414): WP_REST_Serv dans D:\Mahefa\wp\showcase.wordpress\wp-content\plugins\mahefa-rest-api-bp\Logs.php à la ligne 12
+
+2021-09-22T19:36:27+00:00 CRITICAL Uncaught Error: Call to undefined function getAuthorizationCode() in D:\Mahefa\wp\showcase.wordpress\wp-content\plugins\mahefa-rest-api-bp\OAuth2Beneylu.php:60
+Stack trace:
+#0 D:\Mahefa\wp\showcase.wordpress\wp-content\plugins\mahefa-rest-api-bp\mahefa-rest-api-bp.php(29): OAuth2Beneylu::Main(Object(WP_REST_Request))
+#1 D:\Mahefa\wp\showcase.wordpress\wp-includes\rest-api\class-wp-rest-server.php(1140): rest_api_main_custom_fct(Object(WP_REST_Request))
+#2 D:\Mahefa\wp\showcase.wordpress\wp-includes\rest-api\class-wp-rest-server.php(987): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/mahefa/bp/v1/b...', Array, NULL)
+#3 D:\Mahefa\wp\showcase.wordpress\wp-includes\rest-api\class-wp-rest-server.php(414): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#4 D:\Mahefa\wp\showcase.wordpress\wp-includes\rest-api.php(370): WP_REST_Server->serve_request('/mahefa/bp/v1/b...')
+#5 D:\Mahefa\wp\showcase.wordpress\wp-includes\class-wp-hook.php(303): rest_api_loaded(Object(WP))
+#6 D:\Mahefa\wp\showcase.wordpr dans D:\Mahefa\wp\showcase.wordpress\wp-content\plugins\mahefa-rest-api-bp\OAuth2Beneylu.php à la ligne 60
+
